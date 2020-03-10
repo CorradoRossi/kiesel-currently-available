@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/kiesel-available-guitars/precache-manifest.6185bfa338de11f0b1c8aba3b0767f0b.js"
+  "/kiesel-available-guitars/precache-manifest.82c09825785037b9b672833f9142c6e7.js"
 );
 
 self.addEventListener('message', (event) => {
