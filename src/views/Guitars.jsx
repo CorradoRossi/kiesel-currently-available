@@ -1,5 +1,5 @@
 import React from 'react'
-import { mockImages } from '../utils/utils.js'
+//import { mockImages } from '../utils/utils.js'
 import Img2 from '../assets/scraps/Img2'
 
 class Guitars extends React.Component {
@@ -26,7 +26,7 @@ class Guitars extends React.Component {
       }
     })
     setTimeout(function() {
-      console.log(urls)
+      //console.log(urls)
       this.setState({ guitars: urls });
     }
     .bind(this), 
