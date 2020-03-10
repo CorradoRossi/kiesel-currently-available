@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/kiesel-available-guitars/static/css/main.8f679217.chunk.css",
+    "main.js": "/kiesel-available-guitars/static/js/main.278f7c41.chunk.js",
+    "main.js.map": "/kiesel-available-guitars/static/js/main.278f7c41.chunk.js.map",
+    "runtime-main.js": "/kiesel-available-guitars/static/js/runtime-main.ccec56fc.js",
+    "runtime-main.js.map": "/kiesel-available-guitars/static/js/runtime-main.ccec56fc.js.map",
+    "static/js/2.e4a3abdf.chunk.js": "/kiesel-available-guitars/static/js/2.e4a3abdf.chunk.js",
+    "static/js/2.e4a3abdf.chunk.js.map": "/kiesel-available-guitars/static/js/2.e4a3abdf.chunk.js.map",
+    "index.html": "/kiesel-available-guitars/index.html",
+    "precache-manifest.6185bfa338de11f0b1c8aba3b0767f0b.js": "/kiesel-available-guitars/precache-manifest.6185bfa338de11f0b1c8aba3b0767f0b.js",
+    "service-worker.js": "/kiesel-available-guitars/service-worker.js",
+    "static/css/main.8f679217.chunk.css.map": "/kiesel-available-guitars/static/css/main.8f679217.chunk.css.map",
+    "static/js/2.e4a3abdf.chunk.js.LICENSE.txt": "/kiesel-available-guitars/static/js/2.e4a3abdf.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ccec56fc.js",
+    "static/js/2.e4a3abdf.chunk.js",
+    "static/css/main.8f679217.chunk.css",
+    "static/js/main.278f7c41.chunk.js"
+  ]
+}
