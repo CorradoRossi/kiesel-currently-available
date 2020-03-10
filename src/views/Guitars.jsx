@@ -34,17 +34,17 @@ class Guitars extends React.Component {
   }
   
   componentDidMount() {
-    //this.useFetch()
+    this.useFetch()
   }
   
   render() {
     return (
       <div className="container">
         {
-          //this.state.guitars.map(guitar => (
-            //<Img2 key={guitar} src={"https://www.kieselguitars.com/images/guitars-in-stock" + guitar} alt={guitar} />
-          mockImages.map(guitar => (
-            <Img2 key={guitar} src={guitar} alt={guitar} />
+          this.state.guitars.map(guitar => (
+            <Img2 key={guitar} src={"https://www.kieselguitars.com/images/guitars-in-stock" + guitar} alt={guitar} />
+          //mockImages.map(guitar => (
+          //  <Img2 key={guitar} src={guitar} alt={guitar} />
           ))
         }
       </div>
