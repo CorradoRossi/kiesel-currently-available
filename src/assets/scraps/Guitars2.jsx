@@ -1,5 +1,5 @@
 import React from 'react'
-import Img from '../components/Img'
+import Img from '../../components/Img'
 
 let guitarImages = []
 

@@ -9,3 +9,29 @@ function parseHtmlString(yourHtmlString) {
           }
       }
   }
+
+  //useFetch() {
+  //  async function GuitarsInStock() {
+  //
+  //    let m
+  //    let urls = []
+  //  
+  //    const corsUrl = `https://cors-anywhere.herokuapp.com/`
+  //    const searchUrl = `https://www.kieselguitars.com/guitarsinstock/electric-guitars`;
+  //    const regEx = /<img[^>]+src='https:\/\/([^'>]+)/g
+  //  
+  //    const response = await fetch(corsUrl + searchUrl)  
+  //    const htmlString = await response.text();
+  //  
+  //    while (m = regEx.exec(htmlString)) {
+  //      urls.push(m[1]);
+  //    }
+  //    console.log(urls);
+  //    
+  //    this.setState({
+  //      guitars: urls
+  //    })
+  //    return urls
+  //  }
+  //  GuitarsInStock()
+  //}

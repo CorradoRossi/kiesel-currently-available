@@ -1,5 +1,5 @@
 import React from 'react';
-import Guitars from './views/Guitars3'
+import Guitars from './views/Guitars'
 import './App.css';
 
 function App() {
