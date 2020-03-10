@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/kiesel-available-guitars/static/css/main.8f679217.chunk.css",
-    "main.js": "/kiesel-available-guitars/static/js/main.0c6772de.chunk.js",
-    "main.js.map": "/kiesel-available-guitars/static/js/main.0c6772de.chunk.js.map",
-    "runtime-main.js": "/kiesel-available-guitars/static/js/runtime-main.ccec56fc.js",
-    "runtime-main.js.map": "/kiesel-available-guitars/static/js/runtime-main.ccec56fc.js.map",
-    "static/js/2.e4a3abdf.chunk.js": "/kiesel-available-guitars/static/js/2.e4a3abdf.chunk.js",
-    "static/js/2.e4a3abdf.chunk.js.map": "/kiesel-available-guitars/static/js/2.e4a3abdf.chunk.js.map",
-    "index.html": "/kiesel-available-guitars/index.html",
-    "precache-manifest.82c09825785037b9b672833f9142c6e7.js": "/kiesel-available-guitars/precache-manifest.82c09825785037b9b672833f9142c6e7.js",
-    "service-worker.js": "/kiesel-available-guitars/service-worker.js",
-    "static/css/main.8f679217.chunk.css.map": "/kiesel-available-guitars/static/css/main.8f679217.chunk.css.map",
-    "static/js/2.e4a3abdf.chunk.js.LICENSE.txt": "/kiesel-available-guitars/static/js/2.e4a3abdf.chunk.js.LICENSE.txt"
+    "main.css": "/kiesel-currently-available/static/css/main.8f679217.chunk.css",
+    "main.js": "/kiesel-currently-available/static/js/main.0c6772de.chunk.js",
+    "main.js.map": "/kiesel-currently-available/static/js/main.0c6772de.chunk.js.map",
+    "runtime-main.js": "/kiesel-currently-available/static/js/runtime-main.626196ed.js",
+    "runtime-main.js.map": "/kiesel-currently-available/static/js/runtime-main.626196ed.js.map",
+    "static/js/2.e4a3abdf.chunk.js": "/kiesel-currently-available/static/js/2.e4a3abdf.chunk.js",
+    "static/js/2.e4a3abdf.chunk.js.map": "/kiesel-currently-available/static/js/2.e4a3abdf.chunk.js.map",
+    "index.html": "/kiesel-currently-available/index.html",
+    "precache-manifest.61689ee4567707632a59614939558234.js": "/kiesel-currently-available/precache-manifest.61689ee4567707632a59614939558234.js",
+    "service-worker.js": "/kiesel-currently-available/service-worker.js",
+    "static/css/main.8f679217.chunk.css.map": "/kiesel-currently-available/static/css/main.8f679217.chunk.css.map",
+    "static/js/2.e4a3abdf.chunk.js.LICENSE.txt": "/kiesel-currently-available/static/js/2.e4a3abdf.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.ccec56fc.js",
+    "static/js/runtime-main.626196ed.js",
     "static/js/2.e4a3abdf.chunk.js",
     "static/css/main.8f679217.chunk.css",
     "static/js/main.0c6772de.chunk.js"
