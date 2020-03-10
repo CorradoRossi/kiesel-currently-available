@@ -15,7 +15,7 @@ class Guitars extends React.Component {
   
     const corsUrl = `https://cors-anywhere.herokuapp.com/`
     const searchUrl = `https://www.kieselguitars.com/guitarsinstock/electric-guitars`;
-    const regEx = /<img[^>]+src='https:\/\/([^'>]+)/g
+    const regEx = /<img[^>]+src='https:\/\/www.kieselguitars.com\/images\/guitars-in-stock([^'>]+)/g
   
     fetch(corsUrl + searchUrl)  
     .then(response => response.text())
@@ -29,7 +29,7 @@ class Guitars extends React.Component {
       this.setState({ guitars: urls });
     }
     .bind(this), 
-    3000)
+    5000)
   }
   
   componentDidMount() {
@@ -41,7 +41,7 @@ class Guitars extends React.Component {
       <div>
         {
           this.state.guitars.map(guitar => (
-            <Img key={guitar} src={"https://" + guitar} alt={guitar} />
+            <Img key={guitar} src={"https://www.kieselguitars.com/images/guitars-in-stock" + guitar} alt={guitar} />
           ))
         }
       </div>

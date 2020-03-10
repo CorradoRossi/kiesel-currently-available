@@ -1,5 +1,5 @@
 body {
-  background: #2B2D32;
+  background: #040306;
   margin: 0;
   padding: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -32,7 +32,7 @@ code {
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #0E1015;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -53,4 +53,19 @@ code {
   to {
     transform: rotate(360deg);
   }
+}
+
+/* Custom Css */
+
+.header {
+  color: #FFFFFF;
+}
+
+.footer {
+  color: #FFFFFF;
+}
+
+.guitarImages {
+  border-radius: 15px;
+  margin: 15px;
 }

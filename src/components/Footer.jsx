@@ -2,7 +2,9 @@ import React from 'react'
 
 function Footer() {
   return (
-    <div></div>
+    <div className="footer">
+      <a href="https://github.com/CorradoRossi/kiesel-currently-available">CorradoRossi</a>
+    </div>
   )
 }
 
