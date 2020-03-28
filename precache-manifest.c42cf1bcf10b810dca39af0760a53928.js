@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "dd40a2fd1317946abd73f141fbdfa1c3",
+    "revision": "7ff9ac36681522b61f08cfc7e9888405",
     "url": "/kiesel-currently-available/index.html"
   },
   {
