@@ -18,6 +18,7 @@ class Guitars extends React.Component {
   }
   
   componentDidMount() {
+    //this.setState({guitars: mockImages})
     let m
     let urls = []
     let regEx = /<img[^>]+src='https:\/\/www.kieselguitars.com\/images\/guitars-in-stock([^'>]+)/g
@@ -34,7 +35,7 @@ class Guitars extends React.Component {
       <div className="container">
         {
           this.state.guitars.map(guitar => (
-            <Image key={guitar} src={"https://www.kieselguitars.com/images/guitars-in-stock" + guitar} alt={guitar} />
+            <Image key={guitar} src={"https://www.kieselguitars.com/images/guitars-in-stock" + guitar} guitarId={guitar} alt={guitar} />
           ))
         }
       </div>
