@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/kiesel-currently-available/precache-manifest.c42cf1bcf10b810dca39af0760a53928.js"
+  "/kiesel-currently-available/precache-manifest.5af5d344d30077a9be944de23aac14a2.js"
 );
 
 self.addEventListener('message', (event) => {

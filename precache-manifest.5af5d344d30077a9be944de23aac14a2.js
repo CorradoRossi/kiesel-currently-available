@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7ff9ac36681522b61f08cfc7e9888405",
+    "revision": "9758b2284b958a9262774dd520a99c7d",
     "url": "/kiesel-currently-available/index.html"
   },
   {
-    "revision": "404887728f345079170f",
+    "revision": "a871f4c22a850e2cb463",
     "url": "/kiesel-currently-available/static/css/main.8f679217.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/kiesel-currently-available/static/js/2.19e580bc.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "404887728f345079170f",
-    "url": "/kiesel-currently-available/static/js/main.f7e757d0.chunk.js"
+    "revision": "a871f4c22a850e2cb463",
+    "url": "/kiesel-currently-available/static/js/main.d1a89f0a.chunk.js"
   },
   {
     "revision": "57a303257b01b6491297",
