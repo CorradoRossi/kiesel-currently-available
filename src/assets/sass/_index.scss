@@ -70,6 +70,9 @@ code {
   /*box-shadow: rgba(103,110,144,.05) 0 16px 16px,rgba(103,110,144,.05) 0 8px 8px,rgba(103,110,144,.05) 0 4px 4px,rgba(103,110,144,.05) 0 2px 2px;*/
   filter: drop-shadow(0px 0px 20px rgba(68, 68, 221, 0.4));
   margin: 15px;
+  @media (max-width: 800px) {
+    max-width: 140px;
+  }
 }
 
 .get-started {
@@ -101,5 +104,11 @@ code {
   box-shadow: none !important;
   a {
     color: #FFFFFF !important;
+  }
+}
+
+.logo {
+  @media (max-width: 800px) {
+    max-height: 25px;
   }
 }
