@@ -71,3 +71,20 @@ code {
   filter: drop-shadow(0px 0px 20px rgba(68, 68, 221, 0.4));
   margin: 15px;
 }
+
+.get-started {
+  a {
+    width: 160px;
+    height: 47px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 47px;
+    display: block;
+    background: #25282B;
+    border-radius: 4px;
+    text-align: center;
+    color: $white;
+    box-shadow: rgba(0, 0, 0,.03) 0 16px 16px,rgba(0, 0, 0,.03) 0 8px 8px,rgba(0, 0, 0,.03) 0 4px 4px,rgba(0, 0, 0,.1) 0 12px 12px;
+  }
+}

@@ -11,14 +11,13 @@ class Guitars extends React.Component {
 
   async useFetch() {
     const corsUrl = `https://cors-anywhere.herokuapp.com/`
-    const searchUrl = `https://www.kieselguitars.com/guitarsinstock/electric-guitars`;
+    const searchUrl = `https://www.kieselguitars.com/guitarsinstock/bass-guitars`;
     let response = await fetch(corsUrl + searchUrl)
     let data = await response.text()
     return data
   }
   
   componentDidMount() {
-    //this.setState({guitars: mockImages})
     let m
     let urls = []
     let regEx = /<img[^>]+src='https:\/\/www.kieselguitars.com\/images\/guitars-in-stock([^'>]+)/g
@@ -35,7 +34,12 @@ class Guitars extends React.Component {
       <div className="container">
         {
           this.state.guitars.map(guitar => (
-            <Image key={guitar} src={"https://www.kieselguitars.com/images/guitars-in-stock" + guitar} guitarId={guitar} alt={guitar} />
+            <Image 
+              key={guitar} 
+              src={"https://www.kieselguitars.com/images/guitars-in-stock" + guitar} 
+              guitarId={guitar} 
+              alt={guitar} 
+            />
           ))
         }
       </div>

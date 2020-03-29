@@ -1,17 +1,21 @@
 import React from 'react'
 
-const Img = (props) => {
+const Image = (props) => {
+
   const regExSrc = props.guitarId
-  console.log(regExSrc)
   const regEx = /(\d+)/g
-  const guitarNumber = regEx.exec(regExSrc).toString()
-  const hacky = guitarNumber.slice(7)
-  console.log(hacky)
+  const guitar = regEx.exec(regExSrc).toString()
+  const guitarNumber = guitar.slice(7)
+
   return (
-    <a href={`https://www.kieselguitars.com/guitars-in-stock/${hacky}`}>
-      <img className="guitarImages" src={props.src} alt={props.alt} />
+    <a href={`https://www.kieselguitars.com/guitars-in-stock/${guitarNumber}`}>
+      <img 
+        className="guitarImages" 
+        src={props.src} 
+        alt={props.alt} 
+      />
     </a>
   )
 }
 
-export default Img
+export default Image
