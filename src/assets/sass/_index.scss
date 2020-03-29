@@ -73,6 +73,7 @@ code {
 }
 
 .get-started {
+  display: block;
   a {
     width: 160px;
     height: 40px;
@@ -84,7 +85,21 @@ code {
     background: linear-gradient(75deg, #A259FF, rgb(91, 40, 158), rgb(53, 7, 114), rgb(91, 40, 158), #A259FF);
     border-radius: 6px;
     text-align: center;
-    color: $white;
+    color: #FFFFFF;
     box-shadow: rgba(0, 0, 0,.03) 0 16px 16px,rgba(0, 0, 0,.03) 0 8px 8px,rgba(0, 0, 0,.03) 0 4px 4px,rgba(0, 0, 0,.1) 0 12px 12px;
+  }
+  @media (max-width: 800px) {
+    display: none;
+    a {
+      display: none;
+    }
+  }
+}
+
+.menu-list {
+  background-color: #25282B !important;
+  box-shadow: none !important;
+  a {
+    color: #FFFFFF !important;
   }
 }
