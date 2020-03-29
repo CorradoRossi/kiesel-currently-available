@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from '../components/Image'
+import { CORS_ANYWHERE_URL, KIESEL_GUITAR_SEARCH_URL, KIESEL_GUITARS_URL } from '../utils/constants'
 
 class Guitars extends React.Component {
   constructor() {
@@ -10,9 +11,7 @@ class Guitars extends React.Component {
   }
 
   async useFetch() {
-    const corsUrl = `https://cors-anywhere.herokuapp.com/`
-    const searchUrl = `https://www.kieselguitars.com/guitarsinstock/electric-guitars`;
-    let response = await fetch(corsUrl + searchUrl)
+    let response = await fetch(CORS_ANYWHERE_URL + KIESEL_GUITAR_SEARCH_URL)
     let data = await response.text()
     return data
   }
@@ -36,7 +35,7 @@ class Guitars extends React.Component {
           this.state.guitars.map(guitar => (
             <Image 
               key={guitar} 
-              src={"https://www.kieselguitars.com/images/guitars-in-stock" + guitar} 
+              src={KIESEL_GUITARS_URL + guitar} 
               guitarId={guitar} 
               alt={guitar} 
             />

@@ -1,5 +1,6 @@
 import React from 'react'
-
+import { KIESEL_SALE_URL } from '../utils/constants'
+ 
 const Image = (props) => {
 
   const regExSrc = props.guitarId
@@ -8,7 +9,7 @@ const Image = (props) => {
   const guitarNumber = guitar.slice(7)
 
   return (
-    <a href={`https://www.kieselguitars.com/guitars-in-stock/${guitarNumber}`}>
+    <a href={KIESEL_SALE_URL + guitarNumber}>
       <img 
         className="guitarImages" 
         src={props.src} 

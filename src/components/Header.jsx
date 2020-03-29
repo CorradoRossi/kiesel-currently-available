@@ -68,10 +68,10 @@ function Header() {
     <div className="d-flex justify-content-around header pt-5 pb-4 px-lg-2 mx-lg-5">
 
       <a href="https://www.kieselguitars.com/" className="pl-5 mr-auto">
-        <img className="logo mt-2" src={logo} height="40" />
+        <img className="logo mt-2 mt-lg-0" src={logo}  alt="kiesel logo" height="40" />
       </a>
 
-      <p className="d-none d-md-block mx-auto pt-2"><span className="font-weight-bold">(Unofficial)</span></p>
+      {/*<p className="d-none d-md-block mx-auto pt-2"><span className="font-weight-bold">(Unofficial)</span></p>*/}
 
       <Buttons className="d-flex">
         <div className="d-flex pb-4">
