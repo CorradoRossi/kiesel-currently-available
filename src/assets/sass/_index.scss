@@ -75,14 +75,14 @@ code {
 .get-started {
   a {
     width: 160px;
-    height: 47px;
+    height: 40px;
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
-    line-height: 47px;
+    line-height: 40px;
     display: block;
-    background: #25282B;
-    border-radius: 4px;
+    background: linear-gradient(75deg, #A259FF, rgb(91, 40, 158), rgb(53, 7, 114), rgb(91, 40, 158), #A259FF);
+    border-radius: 6px;
     text-align: center;
     color: $white;
     box-shadow: rgba(0, 0, 0,.03) 0 16px 16px,rgba(0, 0, 0,.03) 0 8px 8px,rgba(0, 0, 0,.03) 0 4px 4px,rgba(0, 0, 0,.1) 0 12px 12px;
