@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/kiesel-currently-available/static/css/main.777e7387.chunk.css",
-    "main.js": "/kiesel-currently-available/static/js/main.3fc9038c.chunk.js",
-    "main.js.map": "/kiesel-currently-available/static/js/main.3fc9038c.chunk.js.map",
+    "main.css": "/kiesel-currently-available/static/css/main.88a5f5d4.chunk.css",
+    "main.js": "/kiesel-currently-available/static/js/main.013dbed2.chunk.js",
+    "main.js.map": "/kiesel-currently-available/static/js/main.013dbed2.chunk.js.map",
     "runtime-main.js": "/kiesel-currently-available/static/js/runtime-main.01f8a750.js",
     "runtime-main.js.map": "/kiesel-currently-available/static/js/runtime-main.01f8a750.js.map",
     "static/js/2.4b732960.chunk.js": "/kiesel-currently-available/static/js/2.4b732960.chunk.js",
     "static/js/2.4b732960.chunk.js.map": "/kiesel-currently-available/static/js/2.4b732960.chunk.js.map",
     "index.html": "/kiesel-currently-available/index.html",
-    "precache-manifest.100bf045afaba26774570eb8ebdc6508.js": "/kiesel-currently-available/precache-manifest.100bf045afaba26774570eb8ebdc6508.js",
+    "precache-manifest.413d286ec32a91e18064510ad5b88b7b.js": "/kiesel-currently-available/precache-manifest.413d286ec32a91e18064510ad5b88b7b.js",
     "service-worker.js": "/kiesel-currently-available/service-worker.js",
-    "static/css/main.777e7387.chunk.css.map": "/kiesel-currently-available/static/css/main.777e7387.chunk.css.map",
+    "static/css/main.88a5f5d4.chunk.css.map": "/kiesel-currently-available/static/css/main.88a5f5d4.chunk.css.map",
     "static/js/2.4b732960.chunk.js.LICENSE.txt": "/kiesel-currently-available/static/js/2.4b732960.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.01f8a750.js",
     "static/js/2.4b732960.chunk.js",
-    "static/css/main.777e7387.chunk.css",
-    "static/js/main.3fc9038c.chunk.js"
+    "static/css/main.88a5f5d4.chunk.css",
+    "static/js/main.013dbed2.chunk.js"
   ]
 }
